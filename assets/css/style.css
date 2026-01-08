@@ -1,3 +1,81 @@
-h1 {
-  color: rgb(217, 140, 6);
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  /* font-optical-sizing: auto;  */
+  font-weight: 400;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.cmn-btn a {
+  font-size: 16px;
+  padding: 12px 16px;
+  background-color: #30b868;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+}
+
+.cmn-btn a:hover {
+  color: #30b868;
+  background-color: #ffffff;
+  border: 1px solid #30b868;
+  border-radius: 5px;
+  transition: all ease 0.5s;
+}
+
+/* *************** */
+
+/* Menu */
+.menu {
+  padding: 20px;
+}
+
+.menu .container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.menu .list {
+  margin-left: auto;
+}
+
+.menu .list ul {
+  display: flex;
+}
+
+.menu .list ul li a {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  margin-right: 30px;
+}
+
+.menu .list ul li a:hover {
+  color: #30b868;
+  transition: all ease 0.5s;
+}
+
+.get-btn {
+  margin-left: 300px;
 }
