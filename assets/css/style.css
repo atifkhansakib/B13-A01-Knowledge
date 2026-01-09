@@ -103,35 +103,18 @@ a {
   padding-bottom: 70px;
 }
 
-/* .banner .early-access .items .active-dot {
-  width: 50px;
-  height: 50px;
-  background-color: #30b868;
-  border: 25px solid red;
-  border-radius: 50%;
-  box-sizing: border-box;
-  display: inline-block;
-} */
-
-/* .banner .early-access .items .dot a {
-  font-size: 10px;
-  border: 5px solid red;
-  padding: 0;
-  background-color: #30b868;
-  outline-color: #000;
-  position: relative;
-  right: 95px;
-  top: 18px;
-  max-width: 10px;
-} */
-
-.banner .early-access .items a {
-  font-size: 16px;
-  padding: 8px 12px 8px 34px;
+.banner .early-access .items {
+  padding: 14px 25px;
+  border-radius: 25px;
   background-color: #fff;
   color: #30b868;
-  border: 2px solid #30b868;
-  border-radius: 50px;
+}
+
+.banner .early-access .items i {
+  font-size: 16px;
+  padding-right: 12px;
+  border: 4px solid #30b868;
+  border-radius: 999px;
 }
 
 .banner .banner-text h2 {
@@ -331,4 +314,50 @@ a {
   color: #001931;
   font-weight: 600;
   padding-top: 10px;
+}
+
+/* Think MOre -------- */
+
+.think-more .container {
+  text-align: center;
+  background-color: ;
+  background-color: rgba(247, 246, 242, 1);
+}
+
+.think-more .container h2 {
+  font-size: 48px;
+  color: #001931;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-top: 80px;
+  padding-bottom: 16px;
+}
+
+.think-more .container p {
+  font-size: 18px;
+  color: #627382;
+  line-height: 25px;
+  padding-bottom: 24px;
+}
+.think-more .get-bt {
+  padding: 24px 0;
+}
+.think-more .get-bt a {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  padding: 12px 16px;
+  background-color: #30b868;
+  border: 3px solid transparent;
+  border-radius: 5px;
+}
+
+.think-more .get-bt a:hover {
+  background-color: #fff;
+  border: 3px solid #30b868;
+  color: #30b868;
+  transition: all ease 0.5s;
+}
+
+.think-more .get-bt a span {
+  padding-left: 15px;
 }
