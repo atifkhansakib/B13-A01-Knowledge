@@ -113,8 +113,6 @@ a {
 .banner .early-access .items i {
   font-size: 16px;
   padding-right: 12px;
-  border: 4px solid #30b868;
-  border-radius: 999px;
 }
 
 .banner .banner-text h2 {
@@ -322,6 +320,8 @@ a {
   text-align: center;
   background-color: ;
   background-color: rgba(247, 246, 242, 1);
+  height: 450px;
+  margin-bottom: 120px;
 }
 
 .think-more .container h2 {
@@ -360,4 +360,48 @@ a {
 
 .think-more .get-bt a span {
   padding-left: 15px;
+}
+
+.think-more p .gaps {
+  padding-bottom: 80px;
+}
+
+/** Footer  */
+
+.footer-section {
+  background-color: #001931;
+}
+.footer-section .foodter-contant {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social .social-text h6 {
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.social .social-icon a {
+  padding-right: 8px;
+}
+.social .social-icon i {
+  padding: 5px 5px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.copy-right .border {
+  border-top: 2px solid #627382;
+}
+
+.copy-right .copy-right-text {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.copy-right .copy-right-text p {
+  color: #fafafa;
 }
